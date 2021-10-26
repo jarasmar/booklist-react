@@ -1,3 +1,4 @@
+// Include all functions that interact with a state into one single function (reducer)
 export const bookReducer = (state, action) => {
   switch (action.type) {
     case "ADD_BOOK":
